@@ -1,0 +1,35 @@
+====================================================================================
+== Para asignar un evento a un elemento desde JS ===================================
+    document.getElementById('idElemento').addEventListener("click", pulsar, false);
+    function pulsar(){
+        var div1=document.getElementById("un_div");
+        var div2=document.getElementById("un_divv");
+        div1.style.display="none"
+        div2.style,display="";
+       }
+ó
+    document.getElementById('idElemento').addEventListener("click", function(){
+        var div1=document.getElementById("un_div");
+        var div2=document.getElementById("un_divv");
+        div1.style.display="none"
+        div2.style,display="";
+    });
+
+Desde el HTML
+
+    <button value="Soy un Boton" onclick="lafuncion()"/>
+====================================================================================
+
+====================================================================================
+== Ciclo FOR =======================================================================
+
+Tiene 3 parametros, el valor inicial, la condicion y el conteo o movimiento
+
+for(x=0; x<10; x++){
+    ... Sentencias a repetir
+}
+
+====================================================================================
+
+====================================================================================
+==
