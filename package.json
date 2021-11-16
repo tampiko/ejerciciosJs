@@ -9,6 +9,6 @@
   "author": "Juan Manuel Herrera Carrera",
   "license": "ISC",
   "devDependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.5.0"
   }
 }
